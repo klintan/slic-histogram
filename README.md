@@ -11,3 +11,7 @@ arguments:
          
 outputs:
 - "histogram", the RGB histogram of the superpixel region
+
+
+
+Small addition: It would be easy to replace the np.bincount() with np.histogram(x,bins=8) to get a less sparse histogram and also to perhaps get a better result.
